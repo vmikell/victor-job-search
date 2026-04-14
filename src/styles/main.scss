@@ -234,7 +234,8 @@ img { max-width: 100%; }
 .contact-card,
 .project-card.solo p,
 .timeline-meta,
-.muted {
+.muted,
+.case-study-list li {
   color: var(--muted);
   position: relative;
 }
@@ -364,13 +365,15 @@ img { max-width: 100%; }
   background: rgba(255,255,255,0.03);
 }
 
-.skill-card ul {
+.skill-card ul,
+.case-study-list {
   margin: 0;
   padding-left: 1.1rem;
   position: relative;
 }
 
-.skill-card li + li {
+.skill-card li + li,
+.case-study-list li + li {
   margin-top: 0.5rem;
 }
 
@@ -378,6 +381,18 @@ img { max-width: 100%; }
   display: grid;
   gap: 0.75rem;
   font-size: 1rem;
+}
+
+.case-study-block + .case-study-block {
+  margin-top: 1.5rem;
+}
+
+.project-label {
+  color: var(--gold-soft);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.65rem;
 }
 
 .narrow { width: min(calc(100% - 2rem), 760px); }
