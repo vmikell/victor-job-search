@@ -10,17 +10,21 @@ const navItems = [
 export function Layout() {
   return (
     <>
+      <div id="top" />
       <a href="#main" className="skip-link">Skip to main content</a>
       <div className="seeking-banner">
         Seeking product management and AI-enabled client solution roles <span>|</span> Discovery, requirements, delivery, and user-centered execution
       </div>
-      <header className="site-header">
-        <NavLink to="/" className="monogram">VM</NavLink>
-        <nav className="site-nav" aria-label="Primary">
-          {navItems.map((item) => (
-            <a key={item.label} href={item.href}>{item.label}</a>
-          ))}
-        </nav>
+      <header className="site-header-wrap">
+        <div className="site-header">
+          <NavLink to="/" className="monogram">VM</NavLink>
+          <nav className="site-nav" aria-label="Primary">
+            {navItems.map((item) => (
+              <a key={item.label} href={item.href}>{item.label}</a>
+            ))}
+          </nav>
+          <a href="#top" className="back-to-top">Top ↑</a>
+        </div>
       </header>
       <main id="main">
         <Outlet />
