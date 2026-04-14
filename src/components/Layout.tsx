@@ -23,9 +23,9 @@ export function Layout() {
               <a key={item.label} href={item.href}>{item.label}</a>
             ))}
           </nav>
-          <a href="#top" className="back-to-top">Top ↑</a>
         </div>
       </header>
+      <a href="#top" className="back-to-top-floating" aria-label="Back to top">↑</a>
       <main id="main">
         <Outlet />
       </main>
