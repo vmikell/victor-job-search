@@ -110,6 +110,33 @@ export const projects = [
       'Supports both list and calendar views for the same household workload.',
       'Makes the schedule shareable across the household and customizable from day one.',
     ],
+    images: [
+      {
+        src: '/project-images/maison/maison-planner.jpg',
+        alt: 'Maison mobile planner dashboard with maintenance summary cards.',
+        caption: 'Planner dashboard, mobile view',
+      },
+      {
+        src: '/project-images/maison/maison-calendar.jpg',
+        alt: 'Maison mobile calendar view showing upcoming home care tasks.',
+        caption: 'Calendar overview, mobile view',
+      },
+      {
+        src: '/project-images/maison/maison-shopping.jpg',
+        alt: 'Maison mobile shopping view with household lists by store.',
+        caption: 'Shopping lists, mobile view',
+      },
+      {
+        src: '/project-images/maison/maison-email-1.png',
+        alt: 'Maison desktop calendar agenda with dated maintenance tasks.',
+        caption: 'Calendar agenda, desktop view',
+      },
+      {
+        src: '/project-images/maison/maison-email-2.png',
+        alt: 'Maison desktop planner dashboard with status tiles and upcoming tasks.',
+        caption: 'Planner dashboard, desktop view',
+      },
+    ],
     links: [],
   },
   {
@@ -131,6 +158,7 @@ export const projects = [
       'Constrains discovery to a tighter radius so choices stay relevant and actionable.',
       'Frames output as clearer decision buckets instead of endless ranked clutter.',
     ],
+    images: [],
     links: [],
   },
 ]

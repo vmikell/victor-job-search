@@ -400,6 +400,35 @@ img { max-width: 100%; }
   margin-top: 1.5rem;
 }
 
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.project-shot {
+  margin: 0;
+  padding: 0.85rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(180deg, rgba(24, 29, 44, 0.94), rgba(15, 19, 32, 0.88));
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.project-shot img {
+  width: 100%;
+  display: block;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.project-shot figcaption {
+  margin-top: 0.8rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
 .project-card .case-study-block {
   position: relative;
   margin-top: 1.5rem;
@@ -435,7 +464,8 @@ img { max-width: 100%; }
   .hero-grid,
   .stats-grid,
   .projects-grid,
-  .skills-grid {
+  .skills-grid,
+  .project-gallery {
     grid-template-columns: 1fr;
   }
 

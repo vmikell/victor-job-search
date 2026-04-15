@@ -14,6 +14,17 @@ export function ProjectPage() {
         <h1 className="page-title">{project.title}</h1>
         <p className="page-copy">{project.summary}</p>
 
+        {project.images?.length ? (
+          <section className="project-gallery" aria-label={`${project.title} screenshots`}>
+            {project.images.map((image) => (
+              <figure key={image.src} className="project-shot">
+                <img src={image.src} alt={image.alt} loading="lazy" />
+                <figcaption>{image.caption}</figcaption>
+              </figure>
+            ))}
+          </section>
+        ) : null}
+
         <div className="project-card solo">
           <div className="case-study-block">
             <p className="project-label">Challenge</p>
