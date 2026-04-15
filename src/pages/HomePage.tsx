@@ -67,6 +67,35 @@ export function HomePage() {
                 <p className="project-eyebrow">{project.eyebrow}</p>
                 <h3>{project.title}</h3>
                 <p>{project.summary}</p>
+
+                <div className="case-study-block">
+                  <p className="project-label">Challenge</p>
+                  <p>{project.challenge}</p>
+                </div>
+
+                <div className="case-study-block">
+                  <p className="project-label">Approach</p>
+                  <p>{project.approach}</p>
+                </div>
+
+                <div className="case-study-block">
+                  <p className="project-label">Outcome</p>
+                  <p>{project.outcome}</p>
+                </div>
+
+                <div className="case-study-block">
+                  <p className="project-label">My role</p>
+                  <p>{project.role}</p>
+                </div>
+
+                <div className="case-study-block">
+                  <p className="project-label">What this proves</p>
+                  <ul className="case-study-list">
+                    {project.proofPoints.map((point) => <li key={point}>{point}</li>)}
+                  </ul>
+                </div>
+
+                <p className="muted">Stable route: /projects/{project.slug}</p>
                 <a className="text-link" href={`/projects/${project.slug}`}>Open project page</a>
               </article>
             ))}
