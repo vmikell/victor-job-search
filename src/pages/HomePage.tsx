@@ -25,7 +25,7 @@ export function HomePage() {
       <section id="about" className="section">
         <div className="container">
           <p className="section-label">About</p>
-          <h2 className="section-title">Building products, systems, and workflows that work.</h2>
+          <h2 className="section-title">Building products, systems, and workflows that work for your clients.</h2>
           <div className="stats-grid">
             {stats.map((stat) => (
               <article key={stat.label} className="stat-card">
