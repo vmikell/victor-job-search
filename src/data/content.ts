@@ -96,7 +96,7 @@ export const projects = [
     title: 'Maison',
     eyebrow: 'AI-Assisted Household Operations Product',
     summary:
-      'Maison is a household operations app that turns your home\'s features into a personalized maintenance schedule.',
+      'Maison is a household operations app that turns your home\'s features into a personalized maintenance schedule. Describe your square footage and appliances during setup and the app auto-populates recurring tasks specific to your home, filterable by list or calendar, shareable with everyone under your roof, and fully customizable from day one.',
     challenge:
       'Most people do not need more generic reminders. They need a household system that reflects the actual shape of their home, what is in it, and what needs recurring care.',
     approach:
@@ -117,7 +117,7 @@ export const projects = [
     title: 'The Shortlist',
     eyebrow: 'ML Restaurant Discovery Product',
     summary:
-      'The Shortlist is a restaurant discovery app that gets smarter the more you eat.',
+      'The Shortlist is a restaurant discovery app that gets smarter the more you eat. Set your preferences at signup, explore restaurants within a 5-mile radius, and rate each visit. After 9 trips, the ML model kicks in and classifies every restaurant in your area as Shortlist, Worth a Shot, or Let\'s Explore. No noise. No generic top-10 lists. Just a tighter set of choices that actually fit you.',
     challenge:
       'Most restaurant discovery experiences are noisy, generic, and overloaded with options that do not actually fit the user.',
     approach:
