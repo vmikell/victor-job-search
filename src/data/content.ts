@@ -2,7 +2,7 @@ export const profile = {
   name: 'Victor Mikell',
   title: 'Product, Operations & AI-Enabled Delivery',
   tagline:
-    'I speak the language of the floor and the language of the build.',
+    'Product-minded operator focused on discovery, requirements, cross-functional delivery, and practical AI-enabled solutions.',
   intro:
     'I bring a product-oriented lens shaped by operations, service, and digital execution. Across retail, brand, B2B support, and front-end web development, I\'ve spent my career listening closely to real user needs, translating ambiguity into requirements, and helping cross-functional teams deliver with clarity, especially in environments where AI and automation create meaningful leverage.',
   about:
