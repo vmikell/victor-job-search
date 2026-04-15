@@ -16,6 +16,7 @@ export function HomePage() {
           </div>
           <div className="hero-panel">
             <p>{profile.intro}</p>
+            <p className="hero-bridge">In other words</p>
             <p>{profile.about}</p>
           </div>
         </div>
